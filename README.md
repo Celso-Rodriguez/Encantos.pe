@@ -1,8 +1,8 @@
 # Proyecto Java - Spring
 
-## Docente ✒️
+## EncantosPe ✒️
 
-* **Jorge Jacinto ** - [jorgejacinto9701](https://github.com/jorgejacinto9701)
+* **Floreria EncantosPe ** - (https://www.tiktok.com/@sponsordelamor)
 
 ## Grupo  ✒️
 * 202118111 Limo Ccallo, Fernando Andre
