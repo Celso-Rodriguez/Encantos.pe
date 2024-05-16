@@ -43,9 +43,14 @@ img {
 }
 </style>
 </head>
-<body>
+<body style="background:#B01D4A">
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
 	<div class="top-content">
 		<div class="inner-bg">
 			<div class="container">
@@ -91,7 +96,7 @@ img {
 								</div>
 
 								<div align="center">
-									<button type="submit" id="validateBtn" class="button-37 btn-block">Ingresar</button>
+									<button type="submit" id="validateBtn" class="button-37 btn-block" style="background:#B01D4A">Ingresar</button>
 								</div>
 
 

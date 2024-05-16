@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class EnlaceController {
 
+	//Inicio
 	@GetMapping("/")
 	public String verIntranetMain() {	return "intranetMain";  }
 	
 	//Login
-	@GetMapping("/verIntranetLogin")
+	@GetMapping("/log-in")
 	public String verLogin() 		{	return "intranetLogin";  }
 	
 	@GetMapping("/verIntranetHome")

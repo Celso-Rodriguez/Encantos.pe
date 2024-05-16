@@ -81,7 +81,7 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a style="color: white;" class="nav-link" href="logout">Salir</a>
+                        <a style="color: white;" class="nav-link" href="/">Salir</a>
                     </li>
                 </ul>
             </div>
