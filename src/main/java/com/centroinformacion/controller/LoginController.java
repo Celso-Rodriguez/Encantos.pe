@@ -19,7 +19,7 @@ public class LoginController {
 
 	@Autowired
 	private UsuarioService servicio;
-
+	
 	@PostMapping("/login")
 	public String login(Usuario user, HttpSession session, HttpServletRequest request) {
 		Usuario usuario = servicio.login(user);

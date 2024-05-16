@@ -15,7 +15,7 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a style="color: white;" class="nav-link" href="/login">Login</a>
+                        <a style="color: white;" class="nav-link" href="/">Login</a>
                     </li>
                 </ul>
             </div>

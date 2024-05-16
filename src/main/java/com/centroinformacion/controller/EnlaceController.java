@@ -9,9 +9,10 @@ public class EnlaceController {
 
 	@GetMapping("/")
 	public String verIntranetMain() {	return "intranetMain";  }
+	
 	//Login
-	@GetMapping("/login")
-	public String verLogin() {	return "intranetLogin";  }
+	@GetMapping("/verIntranetLogin")
+	public String verLogin() 		{	return "intranetLogin";  }
 	
 	@GetMapping("/verIntranetHome")
 	public String verIntranetHome() {	return "intranetHome";  }
