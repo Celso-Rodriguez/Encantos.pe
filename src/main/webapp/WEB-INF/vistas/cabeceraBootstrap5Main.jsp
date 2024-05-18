@@ -16,9 +16,7 @@
                 </ul>
 
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a style="color: white;" class="nav-link" href="/log-in">Login</a>
-                    </li>
+                   
                     <li class="nav-item" id="inicio"><a class="nav-link me-lg-3" href="#page-top">Inicio</a></li>
                     <li class="nav-item" id="nosotros"><a class="nav-link me-lg-3" href="#id_nosotros">Nosotros</a></li>
                     <li class="nav-item" id="productos"><a class="nav-link me-lg-3" href="#id_coxinhas">Productos</a>
@@ -33,7 +31,13 @@
                         <span class="small boton-wsp" style="margin-left: 5px;">Pedidos al Whatsapp</span>
                     </span>
                 </button>
+                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="/log-in"><i class="fs-1 bi bi-person-badge"></i></a>
+                    </li>
+                    </ul>
             </div>
         </div>
+         
     </nav>
 </div>

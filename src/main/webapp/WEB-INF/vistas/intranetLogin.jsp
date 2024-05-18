@@ -48,6 +48,7 @@ img {
 
 <br>
 <br>
+
 <br>
 <br>
 <br>
@@ -65,11 +66,11 @@ img {
 					<div class="col-sm-6 col-sm-offset-3 form-box">
 						<div class="form-top">
 							<div class="form-top-center" align="center">
-								<img alt="" src="imagen/chico.png" width="100rem" align="center">
+								<img alt="" src="img/logo_encantos.jpg" width="300rem" align="center">
 							</div>
-							<div class="form-top-left">
+							<div class="form" style="text-align: center;">
 
-								<h3>Ingreso al Sistema de Intranet</h3>
+								<h3>Ingreso al Sistema de <a href="/"><span style="color:#B01D4A">Encantos.pe</span></a></h3>
 								<p>Ingrese su Usuario y Contrase&#241;a:</p>
 							</div>
 						</div>
