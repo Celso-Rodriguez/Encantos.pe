@@ -51,21 +51,24 @@
 
         <title>Intranet</title>
 
+
+
     </head>
 
     <body>
 
         <jsp:include page="cabeceraBootstrap5Main.jsp" />
+        
+        
 
         <header class="masthead">
-            <div class="container px-5">
+            <div class="container px-6">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3" id="id_bienvenida">
-                                Donde encantar, es fácil ❤️
-                            </h1>
+                                Donde encantar, es facil.
                             <p id="id_bienvenida_parrafo" class="lead fw-normal text-muted mb-5"> En el corazón de Lima,
                                 Perú, te damos la bienvenida a un mundo de amor y belleza floral. Desde exquisitos
                                 arreglos
@@ -74,7 +77,7 @@
                                 mientras creamos magia con flores y detalles que transmiten amor y alegría.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <button
-                                    class="btn btn-outline-light py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
+                                    class="btn btn-success py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
                                     <span class="d-flex align-items-center wspspan">
                                         <i class="bi bi-whatsapp"></i>
                                         <span class="small  boton-wsp" style="margin-left: 5px;">Pedidos al
@@ -85,16 +88,59 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-center">
-
-                        <img src="img/regalo_encanto.png" />
-
+                    
+                    <div class="col-lg-2 text-center" >
                     </div>
+
+				<div class="col-lg-5 text-center">
+
+					<!-- ACA VAN LAS IMAGENES -->
+					<div id="carouselExampleIndicators" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0" class="active" aria-current="true"
+								aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+							
+								<img src="img/regalo_encanto.png" class="d-block w-100"
+									alt="..." >
+									
+							</div>
+							<div class="carousel-item">
+								<img src="img/regalo_flores.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="img/coleccion_madre.jpg" class="d-block w-100"
+									alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button"
+							data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" 
+								aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button"
+							data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
+				</div>
+
+
+			</div>
                 </div>
-            </div>
+          
         </header>
         <!-- Quote/testimonial aside-->
-        <aside class="text-center bg-gradient-primary-to-secondary">
+        <aside class="text-center bg-gradient-primary-to-secondary" style="background:#B01D4A">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
@@ -216,7 +262,7 @@
             </div>
         </section>
         <!-- App badge section-->
-        <section class="bg-gradient-primary-to-secondary" id="id_redesSociales">
+        <section class="bg-gradient-primary-to-secondary" id="id_redesSociales" style="background:#B01D4A">
             <div class="container px-5">
                 <h2 class="text-center text-white font-alt mb-4">Redes Sociales</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
@@ -249,6 +295,7 @@
         </div>
 
         <script src="js/scriptsEncantos.js?version=2"></script>
+       
     </body>
 
     </html>

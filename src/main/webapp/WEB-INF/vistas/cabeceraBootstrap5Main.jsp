@@ -17,15 +17,15 @@
 
                 <ul class="navbar-nav ms-auto">
                    
-                    <li class="nav-item" id="inicio"><a class="nav-link me-lg-3" href="#page-top">Inicio</a></li>
-                    <li class="nav-item" id="nosotros"><a class="nav-link me-lg-3" href="#id_nosotros">Nosotros</a></li>
-                    <li class="nav-item" id="productos"><a class="nav-link me-lg-3" href="#id_coxinhas">Productos</a>
+                    <li class="nav-item" id="inicio"><a class="nav-link me-lg-3" style="color: white;" href="#page-top">Inicio</a></li>
+                    <li class="nav-item" id="nosotros"><a class="nav-link me-lg-3" style="color: white;" href="#id_nosotros">Nosotros</a></li>
+                    <li class="nav-item" id="productos"><a class="nav-link me-lg-3" style="color: white;" href="#id_coxinhas">Productos</a>
                     </li>
-                    <li class="nav-item" id="contacto"><a class="nav-link me-lg-3" href="#id_contacto">Contacto</a></li>
-                    <li class="nav-item" id="redesSociales"><a class="nav-link me-lg-3" href="#id_redesSociales">Redes
+                    <li class="nav-item" id="contacto"><a class="nav-link me-lg-3" style="color: white;" href="#id_contacto">Contacto</a></li>
+                    <li class="nav-item" id="redesSociales"><a class="nav-link me-lg-3" style="color: white;" href="#id_redesSociales">Redes
                             Sociales</a></li>
                 </ul>
-                <button class="btn btn-outline-light py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
+                <button class="btn btn-success py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
                     <span class="d-flex align-items-center wspspan">
                         <i class="bi bi-whatsapp"></i>
                         <span class="small boton-wsp" style="margin-left: 5px;">Pedidos al Whatsapp</span>
