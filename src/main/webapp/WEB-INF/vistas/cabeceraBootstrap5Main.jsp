@@ -24,6 +24,7 @@
                     <li class="nav-item" id="contacto"><a class="nav-link me-lg-3" style="color: white;" href="#id_contacto">Contacto</a></li>
                     <li class="nav-item" id="redesSociales"><a class="nav-link me-lg-3" style="color: white;" href="#id_redesSociales">Redes
                             Sociales</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" style="color: white;" href="/Productos">Nuestros Productos</a></li>
                 </ul>
                 <button class="btn btn-success py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
                     <span class="d-flex align-items-center wspspan">
