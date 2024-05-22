@@ -69,12 +69,12 @@
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3" id="id_bienvenida">
                                 Donde encantar, es facil.
-                            <p id="id_bienvenida_parrafo" class="lead fw-normal text-muted mb-5"> En el corazón de Lima,
-                                Perú, te damos la bienvenida a un mundo de amor y belleza floral. Desde exquisitos
+                            <p id="id_bienvenida_parrafo" class="lead fw-normal text-muted mb-5"> En el corazÃ³n de Lima,
+                                PerÃº, te damos la bienvenida a un mundo de amor y belleza floral. Desde exquisitos
                                 arreglos
-                                florales hasta detalles personalizados con un toque único, aquí encontrarás el regalo
-                                perfecto para cada ocasión especial. Déjanos ser parte de tus momentos más memorables
-                                mientras creamos magia con flores y detalles que transmiten amor y alegría.</p>
+                                florales hasta detalles personalizados con un toque Ãºnico, aquÃ­ encontrarÃ¡s el regalo
+                                perfecto para cada ocasiÃ³n especial. DÃ©janos ser parte de tus momentos mÃ¡s memorables
+                                mientras creamos magia con flores y detalles que transmiten amor y alegrÃ­a.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <button
                                     class="btn btn-success py-3 rounded-pill px-4 mb-2 mb-lg-0 btnWhatsAppPeda">
@@ -145,7 +145,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div id="id_frase_medio" class="h2 fs-1 text-white mb-4">"
-                            Flores que hablan, detalles que enamoran. 🌸❤️"</div>
+                            Flores que hablan, detalles que enamoran. ð¸â¤ï¸"</div>
                         <img src="img/logo_head.png" alt="..." style="height: 5.5rem" />
                     </div>
                 </div>
@@ -163,16 +163,16 @@
                                     <div class="text-center">
                                         <i class="bi bi-bicycle icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt" id="id_delivery_title">Delivery</h3>
-                                        <p class="text-muted mb-0" id="id_delivery_description">¡Disfruta desde casa con
+                                        <p class="text-muted mb-0" id="id_delivery_description">Â¡Disfruta desde casa con
                                             nuestro servicio de delivery!
-                                            Haz tu pedido ahora y recíbelo cómodamente donde quieras.</p>
+                                            Haz tu pedido ahora y recÃ­belo cÃ³modamente donde quieras.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
                                         <i class="bi bi-box2-heart icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt" id="id_parejas_title">Entregas para parejas: ¡Doblemente
+                                        <h3 class="font-alt" id="id_parejas_title">Entregas para parejas: Â¡Doblemente
                                             delicioso!</h3>
                                         <p class="text-muted mb-0" id="id_parejas_description"> Sorprende a tu pareja
                                             con
@@ -190,9 +190,9 @@
                                         <p class="text-muted mb-0" id="id_eventos_description">Aceptamos pedidos
                                             anticipados
                                             para eventos especiales.
-                                            Desde cenas románticas hasta celebraciones íntimas, asegura tu fecha
+                                            Desde cenas romÃ¡nticas hasta celebraciones Ã­ntimas, asegura tu fecha
                                             reservando
-                                            con anticipación. </p>
+                                            con anticipaciÃ³n. </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -200,7 +200,7 @@
                                     <div class="text-center">
                                         <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt" id="id_confianza_title">Confianza</h3>
-                                        <p class="text-muted mb-0" id="id_confianza_description">Sólida reputación
+                                        <p class="text-muted mb-0" id="id_confianza_description">SÃ³lida reputaciÃ³n
                                             gracias a
                                             nuestro compromiso con la
                                             calidad y el servicio excepcional</p>
@@ -226,10 +226,10 @@
                     <div class="col-12 col-lg-5">
                         <h2 class="display-4 lh-1 mb-4" id="id_titulo_coxinhas">
 
-                            ¡Descubre la experiencia de los arreglos florales! </h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0" id="id_parrafo_coxinhas"> Desde los clásicos
-                            diseños hasta opciones más personalizadas y únicas, cada arreglo floral es una obra maestra
-                            floral preparada con amor y pasión. 🌸</p>
+                            Â¡Descubre la experiencia de los arreglos florales! </h2>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0" id="id_parrafo_coxinhas"> Desde los clÃ¡sicos
+                            diseÃ±os hasta opciones mÃ¡s personalizadas y Ãºnicas, cada arreglo floral es una obra maestra
+                            floral preparada con amor y pasiÃ³n. ð¸</p>
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <div class="px-5 px-sm-0"> <img src="img/regalo_flores.png" alt="..."

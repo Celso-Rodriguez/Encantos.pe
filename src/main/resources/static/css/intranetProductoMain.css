@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.section-image {
+    flex: 1;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section-list {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.section-list ul {
+    display: flex;
+    gap: 20px; /* Añade espacio entre los elementos de la lista */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-list li {
+    /* Puedes agregar márgenes adicionales si es necesario */
+}
+
+.section-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+}
+
+.section-list a:hover {
+    color: #007BFF;
+}
+
+.filtros {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.filtros > label {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filtro-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 10px; /* Añade espacio entre los elementos dentro de .filtro-item */
+    margin-bottom: 15px;
+}
+
+.filtro-item label {
+    font-size: 1em;
+    /* Ajusta el ancho de los labels si es necesario */
+}
+
+.filtro-item .form-control,
+.filtro-item .form-select {
+    max-width: 200px; /* Establece un ancho máximo para los campos de entrada y selectores */
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .section-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-list ul {
+        flex-direction: column;
+        gap: 10px; /* Reduce el espacio entre los elementos de la lista */
+    }
+
+    .filtro-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtro-item .form-control,
+    .filtro-item .form-select {
+        max-width: 100%; /* Ocupa todo el ancho en móviles */
+    }
+}
