@@ -1,4 +1,4 @@
-package com.back.rest.dto;
+package com.centroinformacion.dto;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
