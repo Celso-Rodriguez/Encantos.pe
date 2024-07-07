@@ -8,7 +8,7 @@ public class ProyectoDawiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoDawiApplication.class, args);
-		System.out.println("SISTEMA CORRIENDO !");
+		System.out.println("Encantos WEB corriendo..!");
 	}
 
 }
