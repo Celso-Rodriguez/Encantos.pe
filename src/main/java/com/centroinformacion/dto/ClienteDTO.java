@@ -9,7 +9,7 @@ import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
-public class DocenteDTO {
+public class ClienteDTO {
 	private Integer codigo;
 
 	@NotNull(message = "Debe proporcionar un nombre")
